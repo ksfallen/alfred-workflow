@@ -51,7 +51,7 @@
 	<key>createdby</key>
 	<string>Jfeng</string>
 	<key>description</key>
-	<string>search App from web</string>
+	<string>Search macOS application</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -198,6 +198,8 @@
 			<integer>170</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
