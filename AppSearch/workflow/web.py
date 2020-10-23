@@ -318,8 +318,11 @@ class Response(object):
 
         """
         if not self._content:
-
-            # Decompress gzipped content
+            # if not self.raw:
+            #     self._content = ''
+            #     self._content_loaded = True
+            #     return self._content
+        # Decompress gzipped content
             if self._gzipped:
                 decoder = zlib.decompressobj(16 + zlib.MAX_WBITS)
                 self._content = decoder.decompress(self.raw.read())

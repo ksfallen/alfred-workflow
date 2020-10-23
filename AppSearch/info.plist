@@ -78,13 +78,13 @@
 				<key>queuedelayimmediatelyinitially</key>
 				<true/>
 				<key>queuedelaymode</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching  "{query}"</string>
 				<key>script</key>
-				<string>python2.7 search.py {query}</string>
+				<string>/usr/bin/python search.py {query}</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -172,14 +172,14 @@
 		<key>442064D5-8019-4992-9922-C4B75AFEF61A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>400</integer>
 			<key>ypos</key>
 			<integer>140</integer>
 		</dict>
 		<key>47C1507C-8058-4CE2-B240-6AC7C6186C4A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>790</integer>
+			<integer>755</integer>
 			<key>ypos</key>
 			<integer>140</integer>
 		</dict>
@@ -193,7 +193,7 @@
 		<key>987AE977-CB5B-490F-8F1B-32C8E0046563</key>
 		<dict>
 			<key>xpos</key>
-			<integer>615</integer>
+			<integer>635</integer>
 			<key>ypos</key>
 			<integer>170</integer>
 		</dict>
