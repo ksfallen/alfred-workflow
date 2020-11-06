@@ -2182,6 +2182,10 @@ class Workflow(object):
         sys.stdout.write(ET.tostring(root).encode('utf-8'))
         sys.stdout.flush()
 
+    def before_send_feedback(self):
+        if len(self._items) > 1:
+            sorted(self._items, key=lambda item_class: item_class.uid)
+
     ####################################################################
     # Updating methods
     ####################################################################

@@ -88,11 +88,11 @@ def _search(wf, item, query):
     else:
         no_result = content.count(item.no_content) > 0
     if no_result:
-        wf.logger.info('--> not result fund:' + item.no_content)
+        wf.logger.info('--> not result fund:' + item.no_content + ', name:' + item.name)
         # wf.logger.debug('--> content:' + content)
         subtitle = u'没有找到内容'
         arg = None
-        uid = '99'
+        # uid = '99'
     wf.add_item(query, subtitle, arg, uid=uid, icon=item.icon, valid=True)
 
 
